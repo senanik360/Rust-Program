@@ -1,0 +1,3 @@
+cargo new rust_tutorial // basicly cargo is rust package manager and build system 
+dir 
+cd rust_tutorial 
