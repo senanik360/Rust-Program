@@ -8,6 +8,11 @@ pub mod If;
 mod TerneryOperator;
 mod Match;
 mod Array;
+pub mod Loop;
+pub mod WhileLoop;
+pub mod ForLoop;
+pub mod Tuples;
+pub mod Strings;
 
 //extern crate rand;
 use std::io;
