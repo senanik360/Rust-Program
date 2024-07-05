@@ -22,4 +22,17 @@ fn main() {
         println!("{}", char);
     }
 
+    let st4 = String::from("Hello");
+    let st5 = String::from(" World");
+
+    println!("{}{}",st4,st5);
+
+    let st6 = st4 + &st5; //st4 doesn't exist anymore but st5 still exist cz we used reference
+    println!("{}",st6);
+
+
+    for char in st6.bytes(){ //it will print unicode character
+        println!("{}",char);
+    }
+
 }

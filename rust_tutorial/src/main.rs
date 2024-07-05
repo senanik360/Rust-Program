@@ -13,6 +13,9 @@ pub mod WhileLoop;
 pub mod ForLoop;
 pub mod Tuples;
 pub mod Strings;
+pub mod Casting;
+mod Enum;
+pub mod Vector;
 
 //extern crate rand;
 use std::io;
