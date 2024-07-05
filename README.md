@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rust Programming Basics</title>
 </head>
 <body>
 
-<h1>Rust Programming Basics</h1>
+<center> <h1>Rust Programming Basics</h1></center>
 
 <p>Welcome to the Rust Programming Basics repository! This repository covers all the essential topics to get you started with Rust programming. Each topic is explained with examples to help you understand and apply Rust concepts effectively.</p>
 
