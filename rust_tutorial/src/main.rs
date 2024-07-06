@@ -16,6 +16,8 @@ pub mod Strings;
 pub mod Casting;
 mod Enum;
 pub mod Vector;
+pub mod Function;
+pub mod Generic;
 
 //extern crate rand;
 use std::io;
