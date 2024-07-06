@@ -18,6 +18,8 @@ mod Enum;
 pub mod Vector;
 pub mod Function;
 pub mod Generic;
+pub mod Ownership;
+pub mod HashMaps;
 
 //extern crate rand;
 use std::io;
