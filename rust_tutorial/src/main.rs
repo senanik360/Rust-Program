@@ -20,6 +20,8 @@ pub mod Function;
 pub mod Generic;
 pub mod Ownership;
 pub mod HashMaps;
+pub mod Struct;
+pub mod Trait;
 
 //extern crate rand;
 use std::io;
