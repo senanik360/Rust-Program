@@ -15,7 +15,6 @@ fn main() {
         println!("Val : {}", arr_2[loop_i]);
         loop_i += 1;
     }
-   
-   
+
 }
 
