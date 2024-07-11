@@ -22,6 +22,7 @@ pub mod Ownership;
 pub mod HashMaps;
 pub mod Struct;
 pub mod Trait;
+pub mod moduleTest;
 
 //extern crate rand;
 use std::io;
@@ -29,6 +30,8 @@ use std::io;
 use std::cmp::Ordering;
 use std::fs::File;
 use std::io::{BufRead, BufReader, ErrorKind, Write};
+
+use crate::moduleTest::order_food;
 fn main() {
     println!("What is your name ?");
     let mut name: String = String::new();
@@ -39,4 +42,6 @@ fn main() {
 
     println!("Hello, {}! {}", name.trim_end(), greeting);
 
+    println!("Message from moduleTest- >");
+   order_food();
 }
