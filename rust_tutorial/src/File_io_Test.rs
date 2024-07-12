@@ -2,7 +2,7 @@
 
 use std::{
     fs::File,
-    io::{BufRead, BufReader, Write}, // Added Write to the import
+    io::{BufRead, BufReader, ErrorKind, Write}, // Added Write to the import
 };
 fn main() {
     let path = "Lines.txt";
