@@ -23,6 +23,7 @@ pub mod HashMaps;
 pub mod Struct;
 pub mod Trait;
 pub mod moduleTest;
+pub mod File_io_Test;
 
 //extern crate rand;
 use std::io;
